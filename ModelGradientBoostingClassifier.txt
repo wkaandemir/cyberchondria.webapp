@@ -1,0 +1,19 @@
+Model successfully saved to models/ModelGradientBoostingClassifier.pkl.
+Accuracy: 0.898876404494382
+ROC-AUC: 0.9456521739130435
+Brier Score: 0.0681646202847608
+Confusion Matrix:
+[[131   7]
+ [ 11  29]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.92      0.95      0.94       138
+           1       0.81      0.72      0.76        40
+
+    accuracy                           0.90       178
+   macro avg       0.86      0.84      0.85       178
+weighted avg       0.90      0.90      0.90       178
+
+Best Parameter Combination: {'learning_rate': 0.09, 'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 70, 'subsample': 0.8}
+Best Accuracy Score: 0.8901463682090157
