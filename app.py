@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 
 # Load the Random Forest CLassifier model
-filename = 'ModelXGBoost.pkl'
+filename = 'ModelGradientBoostingClassifier.pkl'
 model = pickle.load(open(filename, 'rb'))
 
 app = Flask(__name__)
